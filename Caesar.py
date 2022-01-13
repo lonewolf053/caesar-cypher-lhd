@@ -33,15 +33,15 @@ while True:
             continue
 
     try:
-        shift = int(input("Enter Key to Shift"))
+        shift = int(input("Enter Key to Shift: \n"))
         break
     except:
         print("Input invalid, please try again")
         
     
 if choice == 1:
-    print(encrypt(text,shift))
+    print("Your encrypted text: \n"encrypt(text,shift))
 elif choice == 2:
-    print(decrypt(text,shift))
+    print("Your decrypted text: \n"decrypt(text,shift))
         
         
